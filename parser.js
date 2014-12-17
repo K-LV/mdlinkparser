@@ -17,7 +17,7 @@ exports.findLinks = function (markdown, callback){
 		//and taking a substring of just the link
 		links = ans.filter(isLink).map(function(element){
 			return element.substring(element.indexOf("(") + 1, element.length - 1 );
-		})
+		});
 		
 		//Returning links only after everything is done
 		return callback(links);
@@ -26,5 +26,5 @@ exports.findLinks = function (markdown, callback){
 	//Function that will return true if element has '(http' in it
 	function isLink(element){
 		return element.indexOf("(http") != -1;
-	};
+	}
 };
