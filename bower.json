@@ -1,0 +1,26 @@
+{
+  "name": "mdlinkparserklv",
+  "version": "1.0.0",
+  "homepage": "https://github.com/K-LV/mdlinkparser",
+  "authors": [
+    "Klever Loza Vega <klozavega@myseneca.ca>"
+  ],
+  "description": "Parses links from md files",
+  "main": "parser.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "parser",
+    "md",
+    "links"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

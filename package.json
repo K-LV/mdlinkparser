@@ -1,0 +1,24 @@
+{
+  "name": "mdlinkparserklv",
+  "version": "1.0.0",
+  "description": "Parses links from md file",
+  "main": "parser.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/K-LV/mdlinkparser.git"
+  },
+  "keywords": [
+    "parser",
+    "md",
+    "links"
+  ],
+  "author": "Klever Loza Vega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/K-LV/mdlinkparser/issues"
+  },
+  "homepage": "https://github.com/K-LV/mdlinkparser"
+}
